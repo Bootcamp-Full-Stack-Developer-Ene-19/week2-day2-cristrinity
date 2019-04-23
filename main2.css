@@ -1,0 +1,135 @@
+* {box-sizing: border-box}
+
+/* ----------------------------------------
+   RESET
+---------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* Iniciación de la propiedad "display" para etiquetas de HTML5 para navegadores antiguos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1.4;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 974px;
+    height: 500px;
+    margin-right: 0;
+    margin-left: 0
+}
+.block__element{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 242px;
+    height: 242px;
+    border-radius: 300px;
+    text-align: center;
+    background-color: #f8f8f8;
+    transition: all .15s linear;
+    margin:20px;
+
+}
+.block__element:hover{
+    transform: scale(1.1) rotate(-20deg);
+    transition: all .33s linear;
+    border: 3px solid #fff;
+    box-shadow: 2px 12px 17px rgba(0, 0, 0, .2);
+}
+
+.block__element--definition{
+    font-size: 13px;
+}
+
+.block__contenido{
+    width: 100%;
+    padding: 20px;
+}
+.block__contenido:hover{
+    transition: all .15s linear;
+    transform: rotate(20deg);
+}
+.block__details{
+    width: 100%;
+}
+
+.block__element--definition{
+    color: #5b6b82;
+   position: relative;
+   font-size: 13px;
+   letter-spacing: 0.2px;
+   line-height: 1.5rem;
+}
+
+.block__name{
+    background-color: #f8f8f8;
+    height: 86px;
+    width: 230px;
+    color: #5b6b82;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+button:hover{
+    
+    background-color: #3ccf8e;
+    color: #fff;
+    border: 0;
+}
+x
+
+.block__button{
+    text-transform: uppercase;
+}
+.fa-check-circle{
+    color: #3ccf8e;
+    padding-right: 6px;
+   
+}
